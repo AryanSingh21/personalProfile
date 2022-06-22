@@ -1,0 +1,102 @@
+body {
+  background: url(https://www.toptal.com/designers/subtlepatterns/uploads/moroccan-flower.png);
+}
+
+/*navbar */
+
+.navbar{
+  padding:0 0 6.5rem ;
+  margin: 0;
+}
+
+#full{
+  padding: 3% 15% ;
+}
+
+/* mid section  */
+  
+@media only screen and (max-width: 1000px) {
+  
+  h1 {
+      
+  }
+  #full{
+    text-align: center;
+    
+}
+  
+  #imgcol{
+    margin-top: 25px;
+    
+    
+  }
+  .prof{
+    height: 25vh;
+    margin-left: -120px;
+    
+  }
+}
+
+.prof{
+  height:42 vh;
+  width: 26vw;
+  border-radius: 103px;
+}
+
+#imgcol{
+  padding: 0 0 4rem 120px;
+}
+
+
+/* Lmid education and work wala */
+
+
+.moon{
+  height:18vh ;
+  width:13vw ;
+  align-self: center;
+  position: absolute;
+  left:93vh;
+}
+
+@media screen and (max-width:1520px) {
+  .moon{
+    display: none;
+  }
+}
+
+ /* hiring section  */
+#hireRow{
+  padding: 4% 0%;
+}
+.card{
+  width: 40vh;
+}
+
+#Que{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 90px;
+}
+@media screen and (max-width:800px) {
+  .card{
+    width: 25vh;
+  }
+  #Que{
+    /* color: aqua;s */
+    font-size: 35px;
+  }
+}
+
+/* review area  */
+
+#reviewCard{
+  width: 60vh;
+}
+@media screen and (max-width:800px) {
+  #reviewCard {
+    width: 40vh;
+  }
+}
